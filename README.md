@@ -6,7 +6,7 @@ It's a repository for [Figma Icon Automation Plugin](https://github.com/leadream
 ## in react 
 
 ```JSX
-import { ISmile } from "webnovel-icons";
+import { ISmile } from "mexo-icon";
 
 function App(){
     return (<svg {...ISmile} width="16" height="16" />);
@@ -16,7 +16,7 @@ function App(){
 ## in nunjucks
 
 ```HTML
-{% from "node_modules/webnovel-icons/dist/Svgs.njk" import SvgSpirit, Svg, ISmile, ISmileOutlined %}
+{% from "node_modules/mexo-icon/dist/Svgs.njk" import SvgSpirit, Svg, ISmile, ISmileOutlined %}
 
 <body>
     {# 动态 创建 SVG 精灵, 这里不能有引号 #}
@@ -39,7 +39,7 @@ function App(){
 如果不想要 SVG 精灵，而是直接输出 SVG 原始 html 字符串可以这样使用。
 
 ```HTML
-{% from "node_modules/webnovel-icons/dist/Svgs.njk" import ISmile, ISmileOutlined %}
+{% from "node_modules/mexo-icon/dist/Svgs.njk" import ISmile, ISmileOutlined %}
 
 <body>
   {# Api (size='16', class='', attr='' ) #}
@@ -49,7 +49,7 @@ function App(){
 ```
 ## in react native
 
-使用 `webnovel-icons/dist/icons.json` 搭配 [react-native-svg](https://github.com/react-native-svg/react-native-svg) 使用
+使用 `mexo-icon/dist/icons.json` 搭配 [react-native-svg](https://github.com/react-native-svg/react-native-svg) 使用
 
 [demo](http://gitlab.inner.yuewen.local/webnovel/mobile-webnovel-js/-/tree/master/libs/icon)
 
@@ -69,7 +69,7 @@ Open [Figma](https://www.figma.com/file/9xxUNiOfI21DvnVlyfX3aE/%E3%80%90Webnovel
 
 ![填写token](./imgs/plugin-settings.png)
 
-- **GitHub Repo Url**: `https://github.com/yued-fe/webnovel-icons`
+- **GitHub Repo Url**: `https://github.com/yued-fe/mexo-icon`
 - **GitHub token**：联系 [ziven27](https://github.com/ziven27) 获取
 
 1. 打开 Figma 并呼起 `figma-icon-automation` 插件。
@@ -97,6 +97,6 @@ Open [Figma](https://www.figma.com/file/9xxUNiOfI21DvnVlyfX3aE/%E3%80%90Webnovel
 
 ![preview](./imgs/preview.png)
 
-- [codesandbox](https://codesandbox.io/s/webnovel-icons-3kqbh)
+- [codesandbox](https://codesandbox.io/s/mexo-icon-3kqbh)
 
-然后点击以上链接，并在 Dependencies 中升级 [webnovel-icons](https://www.npmjs.com/package/webnovel-icons) 到刚刚 Figma 中发布的版本，即可看到效果。
+然后点击以上链接，并在 Dependencies 中升级 [mexo-icon](https://www.npmjs.com/package/mexo-icon) 到刚刚 Figma 中发布的版本，即可看到效果。
