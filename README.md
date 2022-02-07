@@ -97,6 +97,6 @@ Open [Figma](https://www.figma.com/file/9xxUNiOfI21DvnVlyfX3aE/%E3%80%90Webnovel
 
 ![preview](./imgs/preview.png)
 
-- [codesandbox](https://codesandbox.io/s/mexo-icon-3kqbh)
+- [codesandbox](https://codesandbox.io/s/mexo-icon-rhpvm)
 
 然后点击以上链接，并在 Dependencies 中升级 [mexo-icon](https://www.npmjs.com/package/mexo-icon) 到刚刚 Figma 中发布的版本，即可看到效果。
